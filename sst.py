@@ -262,6 +262,7 @@ def experiment(
         vectorize=vectorize)
     # Manage the assessment set-up:
     X_train = train['X']
+    print(type(X_train))
     y_train = train['y']
     raw_train = train['raw_examples']
     if assess_reader == None:
